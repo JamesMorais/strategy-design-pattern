@@ -6,5 +6,6 @@ public class Main {
         Compra compra = new Compra(valor);
 
         compra.processarCompra(new PagamentoCartaoDebito());
+        //compra.processarCompra(new PagamentoCartaoDeCredito());
     }
 }
